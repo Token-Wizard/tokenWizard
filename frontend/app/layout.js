@@ -28,11 +28,11 @@ export default function RootLayout({ children }) {
             // Information about the chain's native currency (i.e. the currency that is used to pay for gas)
             nativeCurrency: {
               decimals: 18,
-              name: "Ethereum",
-              symbol: "ETH",
+              name: "Shido",
+              symbol: "SHIDO",
             },
-            shortName: "ETH", // Display value shown in the wallet UI
-            slug: "ETH", // Display value shown in the wallet UI
+            shortName: "SHIDO", // Display value shown in the wallet UI
+            slug: "SHIDO", // Display value shown in the wallet UI
             testnet: true, // Boolean indicating whether the chain is a testnet or mainnet
             chain: "Shido Testnet", // Name of the network
             name: "Shido Testnet", // Name of the network
